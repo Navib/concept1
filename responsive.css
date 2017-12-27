@@ -1,0 +1,71 @@
+/* Responsive Styles */
+@media screen and (max-width: 990px) {
+  .beyond-header {
+    background-image: url('./assets/mobile/mobile-header.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 221px;
+  }
+}
+
+
+/* Mobile Phone (Iphone7/8 Plus) */
+@media screen and (max-width: 600px) {
+  .beyond-nav {
+    height: 53px;
+  }
+  .beyond-header {
+    margin-top: 53px;
+  }
+  .beyond-nav-text {
+    font-size: 18px;
+  }
+  .beyond-brand-logo-wrapper {
+    height: 80px;
+    margin: .75em auto;
+  }
+  .stayP {
+        width: 215px !important;
+  }
+  .beyond-brand-row {
+    margin-top: 1em;
+    margin-bottom: 2em;
+  }
+
+  /* Brand Image Sizes */
+
+  img#brand1 {
+    max-width: 102px;
+  }
+  img#brand2  {
+    max-width: 121px;
+  }
+  img#brand3  {
+    max-width: 116px;
+  }
+  img#brand4  {
+    max-width: 113px;
+  }
+  img#brand5  {
+    max-width: 122px;
+  }
+  img#brand6  {
+    max-width: 100px;
+  }
+  img#brand7  {
+    max-width: 109px;
+  }
+  img#brand8  {
+    max-width: 120px;
+  }
+  img#brand9  {
+    max-width: 55px;
+  }
+  img#brand10  {
+    max-width: 101px;
+  }
+  img#brand11  {
+    max-width: 110px;
+  }
+}
